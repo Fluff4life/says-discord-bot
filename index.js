@@ -1,6 +1,6 @@
 const { Client } = require("discord.js");
 const client = new Client();
-const { BOT_TOKEN } = require("./config/config.json");
+const { BOT_TOKEN, PREFIX } = require("./config/config.json");
 
 client.once("ready", () => {
   console.log("Bot started");
@@ -11,6 +11,9 @@ client.once("ready", () => {
   });
 });
 
-config;
+client.on("message", (message) => {
+  if (message.author.bot) return;
+  let messageContent = message.content;
+});
 
 client.login(BOT_TOKEN);
