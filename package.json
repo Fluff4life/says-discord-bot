@@ -1,0 +1,24 @@
+{
+  "name": "says-discord-bot",
+  "version": "1.0.0",
+  "description": "An automated simon says bot for discord and other games :)",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KittyBorgX/says-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KittyBorgX/says-discord-bot/issues"
+  },
+  "homepage": "https://github.com/KittyBorgX/says-discord-bot#readme"
+}
