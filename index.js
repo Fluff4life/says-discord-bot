@@ -11,4 +11,6 @@ client.once("ready", () => {
   });
 });
 
+config;
+
 client.login(BOT_TOKEN);
